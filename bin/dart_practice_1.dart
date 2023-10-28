@@ -35,9 +35,7 @@ void main(List<String> arguments) {
 
   //7
   int p7=123;
-  p7.toString();
-  print(p7);
-  print(p7.runtimeType);
+  print(p7.toString().runtimeType);
 
   //8
   List p8 = ['Hello, Dart!'];
